@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<script>
+		var tab = [];
+		var a = Number(prompt("Podaj ilość liczb"));
+		for(var i=0;i<a;i++)
+		{
+		tab[i] = Number(prompt("Twoja liczba: " + (i+1)));
+		}
+		document.write("Największa liczba z podanych to: ");
+		document.write(Math.max.apply(null, tab));
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
